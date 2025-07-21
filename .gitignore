@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+
+# Pydantic cache
+*.mypy_cache/
+
+# __pycache__ in subfolders
+**/__pycache__/
+
+# Static/media uploads (if any)
+uploads/
