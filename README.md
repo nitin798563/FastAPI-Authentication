@@ -2,7 +2,7 @@
 OAuth2 with Password (and hashing), Bearer with JWT tokens
 
 Required Packages:
- fastapi uvicorn passlib[bcrypt] python-jose[cryptography] python-dotenv sqlalchemy python-jwt mysql-connector-python
+ fastapi uvicorn passlib[bcrypt] python-jose[cryptography] python-dotenv sqlalchemy python-jwt mysql-connector-python 
 
-DATABASE_URL = mysql+mysqlconnector://<username>:<password>@localhost:3306/<database_name>
+DATABASE_URL = mysql+mysqlconnector://<user_name>:<password>@localhost:3306/<database_name><br>
 SECRET_KEY = your_secret_key
